@@ -1,1 +1,17 @@
-<p>episodes works!</p>
+<h2>Podcast Episodes:</h2>
+<ul class="heroes">
+    <li *ngFor="let episode of episodes"
+    [class.selected] = "episode === selectedEpisode"
+    (click)="onSelect(episode)">
+    <span class="badge">{{episode.id}}</span> {{episode.name}}
+  </li>
+</ul>
+
+
+<div *ngIf="selectedEpisode">
+
+    <h2>{{selectedEpisode.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{selectedEpisode.id}}</div>
+    <div><span>name: </span>{{selectedEpisode.name}} </div>
+    <div><span>url: </span>{{selectedEpisode.url}}</div>
+  </div>
