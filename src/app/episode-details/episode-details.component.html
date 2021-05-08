@@ -1,1 +1,7 @@
-<p>episode-details works!</p>
+<div *ngIf="episode">
+
+    <h2>{{episode.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{episode.id}}</div>
+    <div><span>name: </span>{{episode.name}} </div>
+    <div><span>url: </span>{{episode.url}}</div>
+  </div>

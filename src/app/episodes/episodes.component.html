@@ -6,12 +6,4 @@
     <span class="badge">{{episode.id}}</span> {{episode.name}}
   </li>
 </ul>
-
-
-<div *ngIf="selectedEpisode">
-
-    <h2>{{selectedEpisode.name | uppercase}} Details</h2>
-    <div><span>id: </span>{{selectedEpisode.id}}</div>
-    <div><span>name: </span>{{selectedEpisode.name}} </div>
-    <div><span>url: </span>{{selectedEpisode.url}}</div>
-  </div>
+<app-episode-details [episode]="selectedEpisode"></app-episode-details>
