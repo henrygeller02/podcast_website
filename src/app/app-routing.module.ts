@@ -4,9 +4,11 @@ import { AboutComponent } from './about/about.component';
 import { EpisodesComponent } from './episodes/episodes.component';
 import { ProjectComponent } from './project/project.component';
 import { HomeComponent } from './home/home.component';
+import { EpisodeDetailsComponent } from './episode-details/episode-details.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'detail/:id', component: EpisodeDetailsComponent },
   { path: 'episodes', component: EpisodesComponent },
   { path: 'about-us', component: AboutComponent },
   { path: 'our-project', component: ProjectComponent },
