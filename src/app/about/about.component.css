@@ -1,6 +1,31 @@
 div.contain {
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top:30px;
     padding-bottom: 10px;
-    width: 450px;
+    width: 350px;
 }
+p{
+    font-size:20;
+    color:white;
+}
+@media screen and (max-width: 600px){
+    .contain{
+      padding-left:0;
+      width: 350 px;
+      margin:0;
+    }
+     p{
+       margin:0;
+       font-size:10;
+       color:white;
+     }
+   .andrew {
+       width:350px;
+   }
+   .henry{
+       width:350px;
+   }
+   .will{
+       width:350px;
+   }
+   }
