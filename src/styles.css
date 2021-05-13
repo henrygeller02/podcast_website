@@ -1,0 +1,20 @@
+div.andrew {
+    background-image: url(./assets/andrew.JPG);
+    height:500px;
+    width:400px;
+    background-size: 100%;
+}
+
+div.will {
+    background-image: url(./assets/will.jpg);
+    height:500px;
+    width:400px;
+    background-size: 100%;
+}
+
+div.henry {
+    background-image: url(./assets/henry.jpg);
+    height:500px;
+    width:400px;
+    background-size: 100%;
+}
