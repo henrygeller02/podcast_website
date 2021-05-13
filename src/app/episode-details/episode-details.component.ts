@@ -12,8 +12,8 @@ export class EpisodeDetailsComponent implements OnInit {
 
   @Input() episode?: Episode;
   //episode: Episode;
- 
-
+  current_episode = 
+  '<iframe src="https://anchor.fm/2v1podcast/embed/episodes/Episode-1-NFL-Draft-Talk-e10oint" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>';
   constructor(
     private route: ActivatedRoute,
     private episodeService: EpisodeService
